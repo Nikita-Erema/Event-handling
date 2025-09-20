@@ -1,0 +1,12 @@
+div {
+    width: 125px;
+    height: 125px;
+    border: 1px solid black;
+}
+.mini_box {
+    width: 500px;
+    display: flex;
+} 
+image {
+    width: 100px;
+}
