@@ -23,7 +23,6 @@ function paintMap(box, count, childrenCount) {
     }
 }
 paintMap(box, 4, 4) //ставим значение count - сколько строк; childrenCount - количество столбцов
-console.log(box)
 document.body.append(box)
 const image = document.createElement('img')
 image.src = "./images/goblin.png";
