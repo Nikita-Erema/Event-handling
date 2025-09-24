@@ -6,6 +6,7 @@ div {
 .mini_box {
     width: 500px;
     display: flex;
+    cursor: url('../img/icon-cursor.png') 2 20, default;
 } 
 image {
     width: 100px;
