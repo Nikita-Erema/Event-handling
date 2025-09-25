@@ -6,7 +6,7 @@ let beforePosition = {
 let randomPosColumn;
 let randomPosLine;
 export const gameState = {
-    readyGame: false
+    readyGame: true
 }
 export let loseScore = document.querySelector('.lose')
 export let score = document.querySelector('.score')
@@ -47,5 +47,4 @@ export function move() {
         loseScore.textContent = '0'
     }
 }
-move()
-export let stopInterval = [setInterval(move, 1000)]
+move();

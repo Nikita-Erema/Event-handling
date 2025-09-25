@@ -1,4 +1,8 @@
-import { stopInterval, loseScore, score, gameState, move } from "./dom";
+import { loseScore, score, gameState, move } from "./dom";
+export let stopInterval = [setInterval(() => {
+        move();
+        loseGoblin();
+    }, 1000)]
 function loseGoblin() {
     if (gameState.readyGame) {
         loseScore.textContent = Number(loseScore.textContent) + 1
